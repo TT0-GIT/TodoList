@@ -1,0 +1,49 @@
+.category {
+    margin: 10px,0;
+}
+
+.category span {
+    margin-right: 10px;
+    padding:3px;
+}
+
+.todo-item {
+    display:flex;
+}
+
+.todo-item {
+    display: flex;
+  }
+  
+  .todo-item > form,
+  .todo-item > div,
+  .todo-item > input,
+  .todo-item > span {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item {
+    margin-bottom: 10px;
+  }
+  
+  /* .todo-item form > input {
+    width: 30px;
+  } */
+  
+  div button {
+    margin-right: 5px;
+  }
+
+  .search-bar {
+      margin-bottom: 10px;
+
+  }
+
+  form p {
+    color:red;
+    font-size: smaller;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  
