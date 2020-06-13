@@ -10,13 +10,13 @@ const Category = () => {
   if (allItems.length !== 0) {
     return (
       <div className="category">
-        <span onClick={() => dispatch(filterAll())} style={{ color: category.color[0] }}>
+        <span className={category.color[0]} onClick={() => dispatch(filterAll())}>
           All
         </span>
-        <span onClick={() => dispatch(filterProcess())} style={{ color: category.color[1] }}>
+        <span className={category.color[1]}  onClick={() => dispatch(filterProcess())}>
           Processing
         </span>
-        <span onClick={() => dispatch(filterDone())} style={{ color: category.color[2] }}>
+        <span className={category.color[2]}  onClick={() => dispatch(filterDone())}>
           Done
         </span>
       </div>

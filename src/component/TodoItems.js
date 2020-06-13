@@ -62,8 +62,7 @@ const TodoItems = () => {
                 onBlur={e => { e.preventDefault(); dispatch(sortTodo()) }}
               />
             </form>
-            <span
-              style={{ textDecorationLine: "line-through" }}
+            <span className="lineothrough"
               onClick={() => dispatch(markDone(item.key))}
             >
               {item.text}
